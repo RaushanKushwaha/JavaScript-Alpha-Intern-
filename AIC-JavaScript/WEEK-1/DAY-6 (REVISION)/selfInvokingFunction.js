@@ -1,3 +1,3 @@
-(function (){
-    console.log("Self Invoking Function");
-} )();
+( function (){
+    console.log("This is a self invoking function");
+ })();
