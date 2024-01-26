@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit & Loss</title>
+</head>
+<body>
+    <h1>Profit and loss</h1>
+    <script>
+        const selling_price = prompt("Enter the selling Price:")
+        const cost_price = prompt("Enter the cost Price:")
+        
+        if (selling_price>cost_price) {
+         const profit = selling_price-cost_price;
+             document.write("Profit: "+profit);
+        }else{
+            const loss = cost_price-selling_price;
+            document.write("Loss: "+loss );
+        }
+    </script>
+</body>
+</html>
